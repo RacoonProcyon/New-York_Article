@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<header
+  className="container-fluid px-2 py-3 d-flex flex-row justify-content-center align-items-center"
+  id="header"
+>
+  <p
+    className="text-center text-white my-auto"
+  >
+    "The New York Times" article search application
+  </p>
+</header>
+`;

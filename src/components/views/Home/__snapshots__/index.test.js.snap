@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<div>
+  <header
+    className="container-fluid px-2 py-3 d-flex flex-row justify-content-center align-items-center"
+    id="header"
+  >
+    <p
+      className="text-center text-white my-auto"
+    >
+      "The New York Times" article search application
+    </p>
+  </header>
+  <div
+    className="d-md-flex flex-row justify-content-center mt-4"
+  >
+    <div
+      className="col-12 col-md-8"
+      id="searchBox"
+    >
+      <p
+        className="m-0"
+      >
+        Type search query term in here:
+      </p>
+      <div
+        className="input-group m-0"
+      >
+        <input
+          autoComplete="off"
+          autoFocus={true}
+          className="form-control"
+          id="queryString"
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Enter article for search..."
+          type="text"
+          value=""
+        />
+        <div
+          className="input-group-append"
+        >
+          <button
+            className="btn btn-warning"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-search"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-md-flex flex-row justify-content-center"
+  >
+    <div
+      className="dropdown px-3 col-12 col-md-8"
+      id="dropdown"
+    >
+      <button
+        aria-expanded="false"
+        aria-haspopup="true"
+        className="btn btn-secondary dropdown-toggle btn-block mt-3"
+        data-toggle="dropdown"
+        id="dropdownMenuButton"
+        type="button"
+      >
+        previously searched
+      </button>
+      <div
+        aria-labelledby="dropdownMenuButton"
+        className="dropdown-menu"
+        style={
+          Object {
+            "maxHeight": "500px",
+            "overflow": "scroll",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

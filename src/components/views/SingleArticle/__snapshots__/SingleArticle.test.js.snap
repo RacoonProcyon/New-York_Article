@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<div
+  className="d-flex flex-column align-items-center"
+>
+  <header
+    className="container-fluid px-2 py-3 d-flex flex-row justify-content-center align-items-center"
+    id="header"
+  >
+    <p
+      className="text-center text-white my-auto"
+    >
+      "The New York Times" article search application
+    </p>
+  </header>
+  <div
+    className="mt-5 col-12 col-md-8"
+  >
+    <h3
+      className="mt-1"
+      style={
+        Object {
+          "fontWeight": "700",
+        }
+      }
+    >
+      HeadLine
+    </h3>
+    <span
+      className="mt-2"
+    >
+      DATE
+    </span>
+    <p
+      className="mt-3"
+    >
+      Details
+    </p>
+    <a
+      href="#"
+      target="_blank"
+    >
+      Read the full article
+    </a>
+  </div>
+</div>
+`;

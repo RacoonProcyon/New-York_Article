@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<div
+  className="dropdown px-3 col-12 col-md-8"
+  id="dropdown"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="true"
+    className="btn btn-secondary dropdown-toggle btn-block mt-3"
+    data-toggle="dropdown"
+    id="dropdownMenuButton"
+    type="button"
+  >
+    previously searched
+  </button>
+  <div
+    aria-labelledby="dropdownMenuButton"
+    className="dropdown-menu"
+    style={
+      Object {
+        "maxHeight": "500px",
+        "overflow": "scroll",
+      }
+    }
+  />
+</div>
+`;

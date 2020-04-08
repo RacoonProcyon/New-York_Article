@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<article
+  className="col-12 col-md-8 mt-3"
+  id="articles"
+>
+  <p
+    className="m-0"
+  >
+    Results:
+  </p>
+  <ul
+    className="list-group"
+  />
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    Prev
+  </a>
+  <a
+    className="float-right"
+    href="/"
+    onClick={[Function]}
+  >
+    Next
+  </a>
+</article>
+`;

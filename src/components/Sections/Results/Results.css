@@ -1,0 +1,16 @@
+#articles p{
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#articles ul li{
+    background-color: #F8F8F8;
+    color: #000;
+    font-weight: 500;
+}
+
+#articles ul li:hover{
+    background-color: #397AF2;
+    color: #fff;
+}
